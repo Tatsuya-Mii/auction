@@ -1,8 +1,8 @@
 Rails.application.routes.draw do
-  get '/item' => 'items#index'
-  post '/item' => 'items#create'
-  get '/item/new' => 'items#new'
-  get '/item/:id' => 'items#show'
+#  get '/item' => 'items#index'
+#  post '/item' => 'items#create'
+ # get '/item/new' => 'items#new'
+  #get '/item/:id' => 'items#show'
 
   resources :items
 
